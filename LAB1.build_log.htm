@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Michael\Desktop\LaunchPadware\Lab1\LAB1.uvproj
+Project File Date:  01/23/2015
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling main.c...
+compiling UART0.c...
+compiling PLL.c...
+assembling startup.s...
+compiling Retarget.c...
+linking...
+Program Size: Code=4312 RO-data=316 RW-data=24 ZI-data=1152  
+".\LAB1.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Michael\\Desktop\\LaunchPadware\\Lab1\\LAB1.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
+1 Error(s), 1 Warning(s).
+Target not created
+
+    DEBUG_UART0_PRINTF("Finished Initializing\n");
+UART0.c: 2 warnings, 2 errors
+compiling PLL.c...
+assembling startup.s...
+compiling Retarget.c...
+".\LAB1.axf" - 2 Error(s), 2 Warning(s).
+Target not created
+.
+assembling startup.s...
+compiling Retarget.c...
+".\LAB1.axf" - 2 Error(s), 3 Warning(s).
+Target not created
+newline
+  #endif /*__DEBUG_SETTINGS_H__*/
+UART0_debug.h(6): error:  #169: expected a declaration
+  CREATE_DEBUG_PRINTF(UART0)
+UART0.c(62): warning:  #12-D: parsing restarts here after previous syntax error
+  void DisableInterrupts(void); // Disable interrupts
+UART0.c(103): warning:  #223-D: function "DEBUG_UART0_PRINTF" declared implicitly
+    DEBUG_UART0_PRINTF("Finished Initializing\n");
+UART0.c: 3 warnings, 7 errors
+compiling PLL.c...
+assembling startup.s...
+compiling Retarget.c...
+".\LAB1.axf" - 7 Error(s), 3 Warning(s).
+Target not created
+mbling startup.s...
+compiling Retarget.c...
+".\LAB1.axf" - 7 Error(s), 4 Warning(s).
+Target not created
